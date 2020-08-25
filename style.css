@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial";
+  }
+head{
+    height: 12vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #B99B9B;
+  }
+.pngcat{
+	position: absolute;
+	right: 0px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;	
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #000000;
+  padding: 10px 5px;
+  transition-property: li;	
+}
+ul li a:hover{ 
+  color:  	  #c84b49;
+  transition: 0.4s ease;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+p{
+	text-align: center;
+}
+
+	
+
+.container{
+	max-width: 1750px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+	
+}
+.col-2 img{
+	max-width: 100%;
+	padding: 50px 0;
+	padding-left: 100px;
+			
+}
+.col-2 h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+	text-align: center;				
+}
+
+.header{
+	background: radial-gradient(#fff,#ffd6d6);		
+}
+.categories{
+	background: radial-gradient(#fff,#ffd6d6);		
+}
+.header .row{
+	margin-top: 70px;
+}
+
+.bexplorenow{	
+	content: '';
+	text-align: center;
+	position: absolute;
+	background: #c84b49;	
+	color: #fff;
+	left: 26%;
+	padding: 8px 30px;
+	margin: 30px 0px;
+	border-radius: 30px;	
+	transition: 0.5s;
+}
+.bexplorenow:hover {
+	background: #943030;
+	
+}
+.categories{
+	
+	position: relative;
+	
+}
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+.smallcontainer{
+	max-width: 1400px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	
+}
+
+
+.col-3{
+ 
+ position: relative;
+ margin: 2px;
+ height:445px;
+ width: 445px;
+ padding-left: 20px;
+ 
+}
+.col-3 img{
+
+width: 100%;
+height: 100%;
+}
+
+.jadad{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 445px;
+	height: 445px;
+	opacity: 0;
+	
+}
+.jadad:hover {
+	opacity: 1;
+	padding-left: 20px;
+}
+	
+	
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+  }
+  .centered:hover {
+	opacity: 1;
+
+}
+
+
+
+
